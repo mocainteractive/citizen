@@ -19,6 +19,8 @@ body{font-family:'Figtree',sans-serif;font-size:14px;color:var(--gray-text);back
 
 /* ── NAV ── */
 nav{position:sticky;top:0;z-index:100;background:var(--gray-dark);padding:0 40px;display:flex;align-items:center;gap:0;border-bottom:3px solid var(--red)}
+html{scroll-behavior:smooth}
+#executive,#mercato,#posizionamento,#feedback,#ai,#strategia,#action-plan{scroll-margin-top:70px}
 nav a{color:#ccc;text-decoration:none;font-size:11px;font-weight:600;text-transform:uppercase;padding:14px 14px;display:block;letter-spacing:.05em;transition:color .2s,background .2s;white-space:nowrap}
 nav a:hover,nav a.active{color:#fff;background:rgba(255,255,255,.08)}
 .nav-brand{margin-right:auto;color:#fff;font-weight:700;font-size:13px;letter-spacing:.05em;padding:14px 0;white-space:nowrap}
@@ -575,7 +577,7 @@ footer p{font-size:10px;color:rgba(255,255,255,.35);text-transform:uppercase;let
     <div class="pos-card forza">
       <div class="pos-num">02</div>
       <div class="pos-title">Super Titanio e Leadership sui Materiali</div>
-      <div class="pos-body">Primo orologio in titanio al mondo (1970), trattamento Duratect brevettato: 40% più leggero dell'acciaio, 5 volte più resistente ai graffi. Su Reddit il Zenshin Titanium è citato come "PRX killer" per rapporto qualità/prezzo.</div>
+      <div class="pos-body">Primo orologio in titanio al mondo (Citizen X-8 Chronometer, 1970), trattamento Duratect brevettato: 40% più leggero dell'acciaio, 5 volte più resistente ai graffi. Su Reddit il Zenshin Titanium è citato come "PRX killer" per rapporto qualità/prezzo. <span style="font-size:10px;color:#bbb">(Fonte: Citizen Watch Global / Monochrome Watches, 2020)</span></div>
     </div>
     <div class="pos-card forza">
       <div class="pos-num">03</div>
@@ -669,8 +671,8 @@ footer p{font-size:10px;color:rgba(255,255,255,.35);text-transform:uppercase;let
     <div class="metric-row">
       <div class="metric-left">
         <div class="metric-big-val red">11<span class="metric-unit">%</span></div>
-        <div class="metric-label">Sentiment Negativo Aggregato</div>
-        <div class="metric-source">Fonte: Social + Reddit + Amazon campione</div>
+        <div class="metric-label">Sentiment Negativo TikTok</div>
+        <div class="metric-source">Fonte: 249 commenti analizzati · citizenwatch</div>
       </div>
       <div class="metric-right">
         <div class="metric-comment">Il sentiment negativo è contenuto e concentrato su temi specifici e ricorrenti — criticità sistemiche di prodotto e comunicazione, non crisi reputazionali diffuse.</div>
@@ -748,7 +750,7 @@ footer p{font-size:10px;color:rgba(255,255,255,.35);text-transform:uppercase;let
               <li>Design quadrante — il blu sunray è il dettaglio estetico più apprezzato</li>
               <li>Versatilità sport-elegante, abbinabile a look casuali e formali</li>
               <li>Rapporto qualità/prezzo percepito come superiore agli svizzeri della stessa fascia</li>
-              <li>Conferzione con garanzia originale Citizen (CA0695-84E)</li>
+              <li>Confezione con garanzia originale Citizen (CA0695-84E)</li>
             </ul>
           </div>
           <div class="col-box red">
@@ -890,7 +892,7 @@ footer p{font-size:10px;color:rgba(255,255,255,.35);text-transform:uppercase;let
               <li>TikTok è il canale con la base di audience più ampia (136K) e il sentiment più bilanciato — terreno ideale per contenuti tecnico-emozionali</li>
               <li>Tono di voce professionale ma accessibile — ben calibrato tra tecnico e coinvolgente</li>
               <li>Instagram ha una presenza consolidata (1.661 post, 71K follower) con sentiment positivo al 75%</li>
-              <li>YouTube: 0 post recenti ma 17 commenti analizzati con 4/0 positivi — audience fedele e ricettiva</li>
+              <li>YouTube: canale con 0 nuovi post nel periodo analizzato ma con audience fedele — 17 commenti analizzati: 4 positivi, 0 neutrali, 0 negativi</li>
             </ul>
           </div>
           <div class="col-box red">
@@ -915,8 +917,8 @@ footer p{font-size:10px;color:rgba(255,255,255,.35);text-transform:uppercase;let
 
         <div class="label-bold" style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--gray-text);margin-bottom:8px">Distribuzione commenti analizzati</div>
         <div class="kw-list">
-          <span class="kw-tag">TikTok: 249 commenti · 56 pos · 22 neu · 9 neg</span>
-          <span class="kw-tag">Instagram: 55 commenti · 27 pos · 10 neu · 3 neg</span>
+          <span class="kw-tag">TikTok: 249 commenti totali · 87 classificati (56 pos · 22 neu · 9 neg)</span>
+          <span class="kw-tag">Instagram: 55 commenti totali · 40 classificati (27 pos · 10 neu · 3 neg)</span>
           <span class="kw-tag">YouTube: 17 commenti · 4 pos · 0 neu · 0 neg</span>
         </div>
 
@@ -1002,6 +1004,352 @@ footer p{font-size:10px;color:rgba(255,255,255,.35);text-transform:uppercase;let
         <div class="ai-mini"><div class="ai-mini-val" style="color:var(--green)">6/10</div><div class="ai-mini-label">Share of Voice</div></div>
         <div class="ai-mini"><div class="ai-mini-val">Sfidante</div><div class="ai-mini-label">Pos. Mercato</div></div>
         <div class="ai-mini"><div class="ai-mini-val" style="color:var(--green)">8/10</div><div class="ai-mini-label">Qualità Fonti</div></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="section-eyebrow" style="margin-top:40px;margin-bottom:14px">Approfondimento — Presenza e impatto degli LLM nel percorso di scelta</div>
+
+  <!-- 1. CONTESTO MACRO -->
+  <div class="fonte-card" style="margin-bottom:24px">
+    <div class="fonte-header" style="border-left-color:var(--blue)">
+      <div>
+        <div class="fonte-name">Perché gli LLM sono diventati un touchpoint critico</div>
+        <div class="fonte-tipo">Adozione degli assistant AI nella discovery di prodotti · 2024-2026</div>
+      </div>
+      <span class="badge badge-blue">Contesto Macro</span>
+    </div>
+    <div class="fonte-body">
+      <div class="fonte-kpi-row">
+        <div class="fkpi"><div class="fkpi-val" style="color:var(--blue)">58%</div><div class="fkpi-label">Consumatori che usano GenAI per consigli d'acquisto (era 25% un anno fa) · Capgemini, 2025</div></div>
+        <div class="fkpi"><div class="fkpi-val">900 mln</div><div class="fkpi-label">Utenti settimanali ChatGPT · OpenAI, febbraio 2026</div></div>
+        <div class="fkpi"><div class="fkpi-val">63%</div><div class="fkpi-label">Utenti che usano ChatGPT/Gemini come discovery principale · adMarketplace, 2025</div></div>
+        <div class="fkpi"><div class="fkpi-val" style="color:var(--red)">65%</div><div class="fkpi-label">Ricerche Google zero-click · Bain &amp; Company, 2025</div></div>
+      </div>
+
+      <div class="fonte-kpi-row" style="margin-top:14px">
+        <div class="fkpi"><div class="fkpi-val">36%</div><div class="fkpi-label">Utenti che hanno scoperto un nuovo brand via ChatGPT · Adobe, 2025</div></div>
+        <div class="fkpi"><div class="fkpi-val" style="color:var(--violet)">47%</div><div class="fkpi-label">Gen Z che hanno scoperto un nuovo brand via ChatGPT · Adobe, 2025</div></div>
+        <div class="fkpi"><div class="fkpi-val">4.700%</div><div class="fkpi-label">Crescita YoY traffico retail da fonti GenAI (luglio 2025) · Adobe Analytics</div></div>
+        <div class="fkpi"><div class="fkpi-val" style="color:var(--red)">-25%</div><div class="fkpi-label">Previsione calo uso motori tradizionali entro il 2026 · Bain &amp; Company</div></div>
+      </div>
+
+      <div class="note-box" style="margin-top:18px">
+        <h4>Lettura</h4>
+        <p>In dodici mesi l'uso di GenAI per chiedere consigli d'acquisto è più che raddoppiato, passando dal 25% al 58% (Capgemini Research Institute, gennaio 2025). ChatGPT ha superato <strong>900 milioni di utenti settimanali</strong> a febbraio 2026 (OpenAI), con un traffico retail da fonti GenAI cresciuto del 4.700% anno su anno a luglio 2025 (Adobe Analytics). Per una quota crescente di utenti, ChatGPT e strumenti analoghi non sono più un giocattolo tecnologico ma un motore di ricerca conversazionale: il 63% degli utenti usa già ChatGPT o Gemini come principale canale di discovery di prodotti (adMarketplace, 2025), e oltre un terzo ha già scoperto un nuovo brand attraverso una risposta AI, percentuale che sale al <strong>47% tra la Gen Z</strong> (Adobe, 2025). Nel 2026 il 65% delle ricerche consumer avviene in modalità zero-click (Bain &amp; Company): essere citati nelle risposte AI diventa tanto importante quanto presidiare le prime posizioni organiche.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. RUOLO LLM NEL FUNNEL OROLOGI -->
+  <div class="fonte-card" style="margin-bottom:24px">
+    <div class="fonte-header" style="border-left-color:var(--violet)">
+      <div>
+        <div class="fonte-name">Il ruolo degli LLM nel funnel di scelta degli orologi</div>
+        <div class="fonte-tipo">Tre momenti chiave del percorso consumatore</div>
+      </div>
+      <span class="badge badge-blue">Consumer Journey</span>
+    </div>
+    <div class="fonte-body">
+      <div class="fonte-two-col">
+        <div class="col-box" style="border-top:3px solid var(--blue)">
+          <h4>Ispirazione</h4>
+          <ul>
+            <li>"Che orologio posso comprare con questo budget?"</li>
+            <li>"Orologio uomo sotto 500 euro che valga la pena"</li>
+            <li>"Orologi affidabili tutti i giorni non di lusso"</li>
+          </ul>
+        </div>
+        <div class="col-box" style="border-top:3px solid var(--violet)">
+          <h4>Valutazione comparativa</h4>
+          <ul>
+            <li>"Meglio Seiko o Citizen per un uso quotidiano?"</li>
+            <li>"Alternative a orologi svizzeri entry-level"</li>
+            <li>"Orologi non svizzeri di qualità"</li>
+          </ul>
+        </div>
+      </div>
+      <div class="fonte-two-col" style="margin-top:14px">
+        <div class="col-box" style="border-top:3px solid var(--green)">
+          <h4>Rassicurazione tecnica</h4>
+          <ul>
+            <li>"Quanto dura un Eco-Drive?"</li>
+            <li>"Eco-Drive non si carica, cosa fare?"</li>
+            <li>"Ci sono problemi noti sui Citizen Eco-Drive?"</li>
+          </ul>
+        </div>
+        <div class="col-box" style="border-top:3px solid var(--orange)">
+          <h4>Potenziale specifico per Citizen</h4>
+          <ul>
+            <li>Eco-Drive, Super Titanium e alta precisione HAQ sono contenuti tecnici naturalmente valorizzati dagli LLM</li>
+            <li>Il problema non è la sostanza del prodotto, ma la scarsità di contenuti italiani strutturati</li>
+            <li>Sempre più spesso l'intero funnel si svolge dentro l'assistant, senza passare dal sito del brand</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="note-box" style="margin-top:16px">
+        <h4>Lettura</h4>
+        <p>Nel percorso di scelta di un orologio gli LLM intervengono in tre momenti chiave: ispirazione, comparazione e rassicurazione tecnica. Le query non sono keyword secche ma domande strutturate che esplicitano budget, contesto d'uso e preferenze. Citizen ha un potenziale specifico: Eco-Drive, Super Titanium e le linee The Citizen/HAQ sono esattamente il tipo di contenuto tecnico che gli LLM sanno valorizzare, ma mancano contenuti italiani aggiornati che raccontino questi asset in modo confrontabile con le alternative svizzere ed europee.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. TASSONOMIA 5 QUERY -->
+  <div class="fonte-card" style="margin-bottom:24px">
+    <div class="fonte-header" style="border-left-color:var(--orange)">
+      <div>
+        <div class="fonte-name">Le 5 tipologie di query LLM da presidiare</div>
+        <div class="fonte-tipo">Tassonomia delle ricerche legate agli orologi · italiano e inglese</div>
+      </div>
+      <span class="badge badge-orange">Query Taxonomy</span>
+    </div>
+    <div class="fonte-body">
+
+      <div style="display:grid;gap:14px;margin-bottom:18px">
+
+        <div style="border:1px solid #E5E7EA;border-left:4px solid var(--blue);border-radius:4px;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:10px">
+            <strong style="font-size:13px;color:var(--gray-dark);text-transform:uppercase;letter-spacing:.05em">1. Categoria / Value for Money</strong>
+            <span class="badge badge-blue" style="flex-shrink:0">Presidio prioritario</span>
+          </div>
+          <div class="kw-list" style="margin-bottom:10px">
+            <span class="kw-tag">migliori orologi qualità prezzo sotto 300 euro</span>
+            <span class="kw-tag">orologi affidabili tutti i giorni non di lusso</span>
+            <span class="kw-tag">best value for money watches under 300 euros</span>
+            <span class="kw-tag">reliable everyday watch under 500 euros</span>
+          </div>
+          <p style="font-size:12px;color:var(--gray-text);margin:0;line-height:1.6">Gli LLM tendono a proporre liste miste di brand razionali (Seiko, Citizen, Casio, Timex). <strong>Citizen deve presidiare i contenuti che parlano di rapporto qualità/prezzo ed Eco-Drive come soluzione low-maintenance.</strong></p>
+        </div>
+
+        <div style="border:1px solid #E5E7EA;border-left:4px solid var(--green);border-radius:4px;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:10px">
+            <strong style="font-size:13px;color:var(--gray-dark);text-transform:uppercase;letter-spacing:.05em">2. Tecnologiche e Funzionali</strong>
+            <span class="badge badge-green" style="flex-shrink:0">Territorio naturale</span>
+          </div>
+          <div class="kw-list" style="margin-bottom:10px">
+            <span class="kw-tag">orologi solari affidabili</span>
+            <span class="kw-tag">come funziona un orologio Eco-Drive</span>
+            <span class="kw-tag">orologi in titanio leggeri e resistenti</span>
+            <span class="kw-tag">how does Citizen Eco-Drive work</span>
+            <span class="kw-tag">best titanium watches under 1000</span>
+          </div>
+          <p style="font-size:12px;color:var(--gray-text);margin:0;line-height:1.6">Eco-Drive, Super Titanium e gli HAQ sono naturalmente rilevanti. <strong>Servono articoli e FAQ autorevoli in italiano</strong> che spieghino funzionamento e vantaggi rispetto ad alternative a batteria o meccaniche.</p>
+        </div>
+
+        <div style="border:1px solid #E5E7EA;border-left:4px solid var(--violet);border-radius:4px;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:10px">
+            <strong style="font-size:13px;color:var(--gray-dark);text-transform:uppercase;letter-spacing:.05em">3. Contesto d'Uso</strong>
+            <span class="badge badge-blue" style="flex-shrink:0">Opportunità</span>
+          </div>
+          <div class="kw-list" style="margin-bottom:10px">
+            <span class="kw-tag">orologio da lavoro elegante ma resistente</span>
+            <span class="kw-tag">orologio sportivo per trekking e vita quotidiana</span>
+            <span class="kw-tag">orologio eco-friendly per uso quotidiano</span>
+            <span class="kw-tag">durable office watch</span>
+            <span class="kw-tag">sport watch for hiking and everyday use</span>
+          </div>
+          <p style="font-size:12px;color:var(--gray-text);margin:0;line-height:1.6">Gli LLM sintetizzano recensioni e blog su robustezza, leggibilità, resistenza all'acqua, comfort. <strong>I modelli Eco-Drive field/sport sono perfetti per questo cluster se ben raccontati.</strong></p>
+        </div>
+
+        <div style="border:1px solid #E5E7EA;border-left:4px solid var(--red);border-radius:4px;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:10px">
+            <strong style="font-size:13px;color:var(--gray-dark);text-transform:uppercase;letter-spacing:.05em">4. Comparative e Sostituzione</strong>
+            <span class="badge badge-red" style="flex-shrink:0">Gap critico</span>
+          </div>
+          <div class="kw-list" style="margin-bottom:10px">
+            <span class="kw-tag">Seiko o Citizen per orologio quotidiano</span>
+            <span class="kw-tag">alternative a orologi svizzeri entry-level</span>
+            <span class="kw-tag">orologi non svizzeri di qualità</span>
+            <span class="kw-tag">Seiko vs Citizen everyday watch</span>
+            <span class="kw-tag">alternatives to entry-level Swiss watches</span>
+          </div>
+          <p style="font-size:12px;color:var(--gray-text);margin:0;line-height:1.6">In Italia gli LLM tendono a favorire brand con forte heritage (Longines, TAG Heuer, marchi Made in Italy). <strong>Una migliore presenza di contenuti editoriali che confrontano tecnicamente Citizen con il lusso entry-level può spostare l'equilibrio.</strong></p>
+        </div>
+
+        <div style="border:1px solid #E5E7EA;border-left:4px solid var(--pink);border-radius:4px;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:10px">
+            <strong style="font-size:13px;color:var(--gray-dark);text-transform:uppercase;letter-spacing:.05em">5. Problem Solving Post-Acquisto</strong>
+            <span class="badge badge-red" style="flex-shrink:0">Rischio reputazionale</span>
+          </div>
+          <div class="kw-list" style="margin-bottom:10px">
+            <span class="kw-tag">quanto dura una batteria Eco-Drive</span>
+            <span class="kw-tag">problemi Eco-Drive non si carica</span>
+            <span class="kw-tag">quanto dura un orologio Citizen Eco-Drive</span>
+            <span class="kw-tag">how long does Eco-Drive last</span>
+            <span class="kw-tag">Eco-Drive capacitor replacement cost</span>
+          </div>
+          <p style="font-size:12px;color:var(--gray-text);margin:0;line-height:1.6">Reddit e forum registrano molte domande su durata e manutenzione Eco-Drive. <strong>Senza contenuti ufficiali gli LLM amplificano racconti isolati (positivi o negativi).</strong> FAQ ben strutturate possono riequilibrare il sentiment.</p>
+        </div>
+
+      </div>
+
+      <div class="note-box">
+        <h4>Lettura</h4>
+        <p>Questa tassonomia di query è la base per un <strong>piano editoriale "AI-first"</strong>: per ogni famiglia di domande si progettano contenuti lunghi, schede tecniche, FAQ e pagine di confronto pensate esplicitamente per essere riusate dagli LLM quando costruiscono le loro risposte.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. CLUSTER SEMANTICI E TERMINI ASSOCIATI -->
+  <div class="fonte-card" style="margin-bottom:24px">
+    <div class="fonte-header" style="border-left-color:var(--green)">
+      <div>
+        <div class="fonte-name">Termini e cluster semantici associati al brand</div>
+        <div class="fonte-tipo">Come gli LLM descrivono Citizen nelle risposte in italiano</div>
+      </div>
+      <span class="badge badge-green">Entity Analysis</span>
+    </div>
+    <div class="fonte-body">
+
+      <div style="display:grid;gap:14px;margin-bottom:18px">
+
+        <div style="background:#E8F5EE;border-left:3px solid var(--green);padding:16px;border-radius:4px">
+          <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--green);margin-bottom:6px">Cluster 1 · Eco-Drive = tecnologia + sostenibilità</div>
+          <p style="font-size:12px;color:var(--gray-dark);margin:0 0 10px;line-height:1.6">Molti articoli e recensioni descrivono Eco-Drive come tecnologia solare che elimina il cambio batteria, offre mesi di riserva di carica anche al buio e riduce lo smaltimento. L'LLM tende ad associare Citizen a praticità e riduzione dell'impatto ambientale.</p>
+          <p style="font-size:12px;font-style:italic;color:var(--gray-text);margin:0;padding:10px 12px;background:#fff;border-radius:3px;border-left:2px solid var(--green)"><strong style="font-style:normal;color:var(--green)">Desired sentence:</strong> "Citizen è il riferimento per gli orologi solari eco-friendly di fascia media, grazie alla tecnologia Eco-Drive che elimina i cambi batteria e riduce gli sprechi."</p>
+        </div>
+
+        <div style="background:#EEF2FF;border-left:3px solid var(--blue);padding:16px;border-radius:4px">
+          <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--blue);margin-bottom:6px">Cluster 2 · Affidabilità, precisione, value for money</div>
+          <p style="font-size:12px;color:var(--gray-dark);margin:0 0 10px;line-height:1.6">Le fonti consultate presentano Citizen come un marchio affidabile, preciso, con buona qualità costruttiva e un rapporto qualità/prezzo competitivo rispetto a molte alternative svizzere, soprattutto nella fascia non-lusso.</p>
+          <p style="font-size:12px;font-style:italic;color:var(--gray-text);margin:0;padding:10px 12px;background:#fff;border-radius:3px;border-left:2px solid var(--blue)"><strong style="font-style:normal;color:var(--blue)">Desired sentence:</strong> "Citizen è uno dei marchi più razionali per chi cerca un orologio preciso e robusto, con un ottimo rapporto qualità/prezzo."</p>
+        </div>
+
+        <div style="background:#F4EEFF;border-left:3px solid var(--violet);padding:16px;border-radius:4px">
+          <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--violet);margin-bottom:6px">Cluster 3 · Innovazione pratica, non status symbol</div>
+          <p style="font-size:12px;color:var(--gray-dark);margin:0 0 10px;line-height:1.6">La narrativa dominante è che Citizen investe in tecnologia e materiali avanzati (Eco-Drive, Super Titanium, HAQ), ma non viene percepito come marchio di status quanto come scelta pratica e intelligente.</p>
+          <p style="font-size:12px;font-style:italic;color:var(--gray-text);margin:0;padding:10px 12px;background:#fff;border-radius:3px;border-left:2px solid var(--violet)"><strong style="font-style:normal;color:var(--violet)">Desired sentence:</strong> "Citizen offre tecnologia avanzata e materiali innovativi pensati per l'uso reale, più che per lo status symbol."</p>
+        </div>
+
+        <div style="background:#FDF2EC;border-left:3px solid var(--orange);padding:16px;border-radius:4px">
+          <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--orange);margin-bottom:6px">Cluster 4 · Narrativa green sottoutilizzata</div>
+          <p style="font-size:12px;color:var(--gray-dark);margin:0 0 10px;line-height:1.6">Molte review sottolineano il beneficio ambientale di Eco-Drive, ma la comunicazione ufficiale in Italia sfrutta poco questo angolo. Gli LLM ne parlano quando trovano contenuti di terze parti che lo mettono in evidenza.</p>
+          <p style="font-size:12px;font-style:italic;color:var(--gray-text);margin:0;padding:10px 12px;background:#fff;border-radius:3px;border-left:2px solid var(--orange)"><strong style="font-style:normal;color:var(--orange)">Desired sentence:</strong> "Grazie a Eco-Drive, Citizen permette di ridurre in modo concreto lo smaltimento di batterie, ma questo vantaggio è ancora poco valorizzato nella comunicazione italiana."</p>
+        </div>
+
+      </div>
+
+      <div class="note-box">
+        <h4>Lettura</h4>
+        <p>Il vocabolario con cui gli LLM descrivono Citizen è <strong>coerente e positivo</strong> ma quasi interamente funzionale: Eco-Drive, affidabilità, rapporto qualità/prezzo e innovazione pratica coprono l'intero spazio narrativo. Il gap più evidente è l'assenza di entità aspirazionali (lusso, status, heritage raccontato come saga). Le "desired sentence" sopra sono il benchmark narrativo verso cui allineare produzione editoriale e PR italiane nei prossimi 6-12 mesi.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. POSIZIONAMENTO E CONFRONTO COMPETITOR -->
+  <div class="fonte-card" style="margin-bottom:24px">
+    <div class="fonte-header" style="border-left-color:var(--red)">
+      <div>
+        <div class="fonte-name">Posizionamento negli LLM e confronto competitor</div>
+        <div class="fonte-tipo">Forza relativa di Citizen rispetto a Seiko, Tissot/Hamilton, Casio nei prompt italiani</div>
+      </div>
+      <span class="badge badge-red">Competitive Analysis</span>
+    </div>
+    <div class="fonte-body">
+
+      <div class="fonte-two-col" style="margin-bottom:20px">
+        <div class="col-box green">
+          <h4>Punti di forza di Citizen negli LLM italiani</h4>
+          <ul>
+            <li>Reputazione tecnica solida (Eco-Drive, Super Titanium, precisione) riconosciuta a livello internazionale</li>
+            <li>Percepito come scelta razionale e "smart" per l'uso quotidiano</li>
+            <li>Presenza forte su Gemini (82/100), che attinge a fonti storiche e documentali</li>
+          </ul>
+        </div>
+        <div class="col-box red">
+          <h4>Punti di debolezza</h4>
+          <ul>
+            <li>Score molto basso su Perplexity (36/100), che riflette la debolezza nelle fonti in tempo reale italiane</li>
+            <li>Narrativa poco aspirazionale rispetto a competitor con heritage svizzero o lusso giapponese</li>
+            <li>Rischio che singoli problemi di prodotto (modelli con molte 1 stella) pesino in modo sproporzionato sulle risposte AI</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="label-bold" style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--gray-text);margin-bottom:10px">Competitor di riferimento nelle risposte LLM italiane</div>
+
+      <div style="display:grid;gap:12px;margin-bottom:18px">
+
+        <div style="border:1px solid #E5E7EA;border-radius:4px;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;gap:12px;flex-wrap:wrap">
+            <strong style="font-size:14px;color:var(--gray-dark)">Seiko</strong>
+            <span style="font-size:11px;color:var(--gray-text);font-style:italic">Prima scelta per orologi accessibili con "anima" meccanica</span>
+          </div>
+          <p style="font-size:12px;color:var(--gray-dark);margin:0 0 8px;line-height:1.6"><strong>Posizionamento LLM:</strong> ampia gamma dall'entry-level al medio, forte heritage meccanico, modelli cult e collezionabili.</p>
+          <p style="font-size:12px;color:var(--gray-text);margin:0;line-height:1.6;padding-top:8px;border-top:1px dashed #E5E7EA"><strong style="color:var(--red)">vs Citizen:</strong> percepito come più emozionale e collezionabile. Citizen appare più razionale e tecnologico.</p>
+        </div>
+
+        <div style="border:1px solid #E5E7EA;border-radius:4px;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;gap:12px;flex-wrap:wrap">
+            <strong style="font-size:14px;color:var(--gray-dark)">Tissot / Hamilton</strong>
+            <span style="font-size:11px;color:var(--gray-text);font-style:italic">Swiss Made accessibile, heritage europeo</span>
+          </div>
+          <p style="font-size:12px;color:var(--gray-dark);margin:0 0 8px;line-height:1.6"><strong>Posizionamento LLM:</strong> entry-level svizzero. Compare spesso nelle liste di orologi "seri" sotto una certa soglia di prezzo.</p>
+          <p style="font-size:12px;color:var(--gray-text);margin:0;line-height:1.6;padding-top:8px;border-top:1px dashed #E5E7EA"><strong style="color:var(--red)">vs Citizen:</strong> rappresentano l'alternativa "status + Swiss", mentre Citizen presidia "tecnologia + valore". Senza una narrativa premium, possono drenare domanda aspirazionale.</p>
+        </div>
+
+        <div style="border:1px solid #E5E7EA;border-radius:4px;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;gap:12px;flex-wrap:wrap">
+            <strong style="font-size:14px;color:var(--gray-dark)">Casio / G-Shock</strong>
+            <span style="font-size:11px;color:var(--gray-text);font-style:italic">Orologi indistruttibili, ultra-pratici, icone pop</span>
+          </div>
+          <p style="font-size:12px;color:var(--gray-dark);margin:0 0 8px;line-height:1.6"><strong>Posizionamento LLM:</strong> robustezza, funzionalità digitale, icone pop come G-Shock.</p>
+          <p style="font-size:12px;color:var(--gray-text);margin:0;line-height:1.6;padding-top:8px;border-top:1px dashed #E5E7EA"><strong style="color:var(--red)">vs Citizen:</strong> condividono il territorio razionale/funzionale, ma Casio ha una iconografia più forte. Citizen appare più "serio" e tecnico, Casio più ludico e pop.</p>
+        </div>
+
+      </div>
+
+      <div class="rog-row">
+        <div class="rog-card rischio">
+          <div class="rog-card-label">Rischio narrativo</div>
+          <p>Seiko occupa lo spazio emozionale e collezionabile, Tissot/Hamilton quello dello Swiss Made accessibile. <strong>Citizen resta confinato nel razionale e tecnologico</strong>, senza leve aspirazionali che giustifichino un upgrade di percezione premium.</p>
+        </div>
+        <div class="rog-card opportunita">
+          <div class="rog-card-label">Territorio libero</div>
+          <p>Nessun competitor presidia in modo convincente il territorio <strong>"tecnologia autentica + eredità giapponese + sostenibilità"</strong>. È uno spazio coerente con l'asset reale di Citizen (Eco-Drive, Super Titanium, HAQ) e ancora non rivendicato negli LLM italiani.</p>
+        </div>
+        <div class="rog-card azione">
+          <div class="rog-card-label">Leva editoriale</div>
+          <p>Contenuti italiani autorevoli su Eco-Drive, The Citizen, Series 8 e Super Titanium su fonti indicizzate da Perplexity (riviste orologeria, blog verticali, testate lifestyle) per portare lo score Perplexity <strong>da 36 a 55+ entro 12 mesi</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. AZIONI PRIORITARIE -->
+  <div class="fonte-card" style="margin-bottom:24px">
+    <div class="fonte-header" style="border-left-color:var(--red)">
+      <div>
+        <div class="fonte-name">Azioni prioritarie per migliorare la presenza negli LLM</div>
+        <div class="fonte-tipo">Roadmap 6-12 mesi · editoriale, frizioni di prodotto, monitoraggio</div>
+      </div>
+      <span class="badge badge-red">Action Plan</span>
+    </div>
+    <div class="fonte-body">
+      <div class="fonte-two-col">
+        <div class="col-box" style="border-top:3px solid var(--blue)">
+          <h4>1. Corpus editoriale AI-ottimizzato</h4>
+          <ul>
+            <li>La forbice Gemini 82 vs Perplexity 36 è un problema di distribuzione narrativa, non di sostanza del brand</li>
+            <li>Costruire contenuti su fonti autorevoli italiane: riviste di orologeria, blog specializzati, siti lifestyle e fashion</li>
+            <li>Focus editoriale: Eco-Drive, The Citizen, Series 8 e Super Titanium</li>
+          </ul>
+        </div>
+        <div class="col-box" style="border-top:3px solid var(--orange)">
+          <h4>2. Gestione frizioni di prodotto</h4>
+          <ul>
+            <li>FAQ dedicata alla manutenzione Eco-Drive a fine vita (sostituzione accumulatore)</li>
+            <li>Posizionamento chiaro dei modelli critici con forte concentrazione di recensioni negative Amazon</li>
+            <li>Programma trasparente di sostituzione accumulatori per trasformare potenziali criticità in elementi di fiducia</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="background:#F4F5F6;border-left:3px solid var(--red);padding:18px;border-radius:4px;margin-top:16px">
+        <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--red);margin-bottom:8px">3. Protocollo trimestrale di LLM listening</div>
+        <p style="font-size:12px;color:var(--gray-dark);margin:0;line-height:1.7">Per monitorare l'efficacia delle azioni è utile introdurre un protocollo trimestrale di LLM listening: un <strong>set fisso di prompt testati su Gemini, ChatGPT, Perplexity e Copilot</strong> (in italiano e inglese), con scoring interno di share of voice, sentiment e co-occorrenza con le keyword strategiche. Obiettivo dichiarato: <strong>portare lo score Perplexity da 36 a 55+</strong> e consolidare il ruolo di Citizen come alternativa tecnica credibile al lusso entry-level svizzero nel mercato italiano.</p>
       </div>
     </div>
   </div>
@@ -1216,7 +1564,7 @@ footer p{font-size:10px;color:rgba(255,255,255,.35);text-transform:uppercase;let
 
   <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:24px;padding:16px 20px;background:var(--gray-light);border-radius:6px">
     <span style="font-size:11px;font-weight:700;color:var(--gray-text);text-transform:uppercase;letter-spacing:.06em">Legenda:</span>
-    <span style="font-size:11px;color:var(--gray-text)"><strong style="color:var(--red)">P1</strong> Azione immediata (0-60 gg)</span>
+    <span style="font-size:11px;color:var(--gray-text)"><strong style="color:var(--red)">P1</strong> Azione immediata (0-30 gg urgente / 0-60 gg alta priorità)</span>
     <span style="font-size:11px;color:var(--gray-text)"><strong style="color:var(--orange)">P2</strong> Breve termine (1-3 mesi)</span>
     <span style="font-size:11px;color:var(--gray-text)"><strong style="color:#966A00">P3</strong> Medio termine (3-6 mesi)</span>
     <span style="font-size:11px;color:var(--gray-text)"><strong style="color:var(--gray-text)">P4</strong> Backlog / Evolutivo</span>
